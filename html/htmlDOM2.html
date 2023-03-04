@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <html LANG="es">
+        <head>
+            <meta charst=" utf-8">
+            <title>Mi pagina</title>
+     
+        </head>
+        <body>
+            <h2>JS DOM</h2>
+            <p id="parrafo">Hola mundo</p>
+            <input type="text" id="nombre"/>
+          
+            <script>
+                var variable = document.getElementById("parrafo");
+                var text = document.getElementById("nombre");
+                text.value = variable.nodeName;
+                console.log(text.value);;
+            </script>
+        </body>
+
+    </html>
